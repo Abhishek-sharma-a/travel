@@ -1,0 +1,39 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    margin-top: 5px;
+}
+
+.topbar-list li i {
+    color: white;
+    padding-left: 5px;
+    margin-left: 5px;
+
+}
+
+.topbar-list li i img {
+    height: 20px;
+}
+
+.topbar-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.topbar-list {
+    list-style-type: none;
+    align-items: center;
+    font-size: 13px;
+}
+
+.usd {
+    display: flex;
+    justify-content: flex-end;
+}
+.main-navbar {
+    padding: 12px 0;
+    position: relative;
+}
