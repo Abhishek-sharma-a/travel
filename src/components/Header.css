@@ -33,7 +33,28 @@
     display: flex;
     justify-content: flex-end;
 }
+
 .main-navbar {
     padding: 12px 0;
     position: relative;
 }
+
+.navFont a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn_navber {
+    color: #fff;
+    border: 2px solid var(--main-color);
+    padding: 7px 10px;
+    transition: var(--transition);
+    box-shadow: none;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    z-index: 0;
+    background-color: #8b3eea;
+    border-radius: 5px;
+}
+
