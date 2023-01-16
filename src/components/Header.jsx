@@ -42,21 +42,17 @@ const Header = () => {
                 </div></div>
             <div className="main-navbar">
                 <div className="container">
-                <nav className='d-flex'>
-                    <Link to={"/"}><img src={logo} alt="" /></Link>
-                    <div className='collapse navbar-collapse mean-menu d-flex'>
-                        <ul className="d-flex">
-                            <li>yuhyr</li>
-                            <li>ytyrety</li>
-                            <li>thyettryer</li>
-                            <li>tttghr</li>
-                            <li>ttthgdryr</li>
-                            <li>trhdf</li>
-                        </ul>
-                        <div className="becomepartner">yuhtr</div>
-                   </div>         
-                </nav>
-            </div>
+                    <nav className='d-flex justify-content-around align-items-center navFont fs-5 '>
+                        <Link to={"/"}><img src={logo} alt="" /></Link>
+                        <Link to={"/"}>Home</Link>
+                        <Link to={"/"}>Packages</Link>
+                        <Link to={"/"}>Glimpse</Link>
+                        <Link to={"/"}>Taxi Hire</Link>
+                        <Link to={"/"}>About</Link>
+                        <Link to={"/"}>Book Your Trip</Link>
+                        <div ><button className="btn_navber">Become a partner</button></div>
+                    </nav>
+                </div>
             </div>
         </div></>
     )

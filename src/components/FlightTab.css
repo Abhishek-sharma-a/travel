@@ -1,0 +1,35 @@
+.Flyinput {
+    outline: none;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #d3d3d3;
+    color: black;
+}
+.Flyinput::placeholder{color: black;}
+
+.FlyPara {
+    color: black;
+    font-size: 13px;
+}
+
+.Flybg {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+}
+
+.arrow {
+    position: absolute;
+    top: 40%;
+    left: 25.4%;
+    width:20px
+
+}
+
+.arrow img {
+    height: 30px;
+}
+
+.x{display: flex;
+    
+}

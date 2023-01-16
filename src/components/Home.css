@@ -7,3 +7,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.HeroHeading {
+    font-size: 82px;
+    font-weight: 400;
+    line-height: 90px;
+    color: #fff;
+}
+
+.fontWeight {
+    font-weight: 100;
+}

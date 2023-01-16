@@ -1,0 +1,10 @@
+.Tourinput{  outline: none;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #d3d3d3;
+    color: black;}
+
+
+    .y{display: flex;
+    justify-content: space-between;}
