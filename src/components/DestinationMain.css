@@ -1,0 +1,31 @@
+.des {
+    display: flex;
+}
+
+.desL {
+    display: flex;
+}
+
+.desL img {
+    width: 100%;
+}
+
+.desR {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.R1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.R1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.Viewbtn {
+    width: 170px;
+    height: 50px;
+}

@@ -50,7 +50,7 @@ const Header = () => {
                         <Link to={"/"}>Taxi Hire</Link>
                         <Link to={"/"}>About</Link>
                         <Link to={"/"}>Book Your Trip</Link>
-                        <div ><button className="btn_navber">Become a partner</button></div>
+                        <div ><button className="btn_navber" >Become a partner</button></div>
                     </nav>
                 </div>
             </div>

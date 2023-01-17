@@ -1,0 +1,22 @@
+a.active {
+    color: #fff;
+    background-color: #8b3eea !important;
+    border: #8b3eea;
+}
+
+.nav-item .nav-link  {
+    background-color: #fff ;
+    color: black !important; 
+    border:1px solid #8b3eea !important;
+}
+
+.buttFlex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.grid-container{  display: grid;
+    grid-template-columns: auto auto auto auto;
+  
+   row-gap: 20px;
+column-gap: 10px;}

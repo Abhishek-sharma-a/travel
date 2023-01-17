@@ -1,0 +1,10 @@
+.Go {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Go img {
+    width: 100%;
+}
