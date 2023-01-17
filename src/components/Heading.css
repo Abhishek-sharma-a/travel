@@ -1,0 +1,8 @@
+.bor {
+
+    border-bottom: 2px solid #8b3eea;
+    text-align: center;
+    border-width: 2px;
+    width: max-content;
+    margin: 0px auto;
+}

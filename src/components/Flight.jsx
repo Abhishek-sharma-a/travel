@@ -18,13 +18,13 @@ const Flight = () => {
                         <div className="d-flex justify-content-around">
                             <div className='btn btn-primary ms-3 me-3 fs-5' onClick={() => {
                                 setFlight(true); setHotel(false); setTour(false)
-                            }}>Flight</div>
+                            }} style={{backgroundColor:"#8b3eea", border:"none"}}>Flight</div>
                             <div className='btn btn-primary me-3 fs-5' onClick={() => {
                                 setFlight(false); setHotel(false); setTour(true)
-                            }}>Tour</div>
+                            }} style={{backgroundColor:"white",color:"black",borderColor:"#8b3eea"}}>Tour</div>
                             <div className='btn btn-primary fs-5' onClick={() => {
                                 setFlight(false); setHotel(true); setTour(false)
-                            }}>Hotels</div>
+                            }}style={{backgroundColor:"white",color:"black",borderColor:"#8b3eea"}}>Hotels</div>
                         </div>
                         <div className="d-flex justify-content-between fs-5">
                             <div className='me-2 OneWay' >One Way</div>
@@ -33,10 +33,10 @@ const Flight = () => {
                         </div>
                     </div>
                     {Flight ? <div className='my-3'><FlightTab /></div> : null}
-                    {Hotel ? <div className='my-3'><Hoteltab/></div> : null}
-                    {Tour ? <div className='my-3'><Tourtab/></div> : null}
+                    {Hotel ? <div className='my-3'><Hoteltab /></div> : null}
+                    {Tour ? <div className='my-3'><Tourtab /></div> : null}
 
-                    <div className='btn btn-primary mx-auto 'style={{fontSize:"23px"}}>Search</div>
+                    <div className='btn btn-primary mx-auto ' style={{ fontSize: "23px",backgroundColor:"#8b3eea",border:"none" }}>Search</div>
                 </div>
             </div>
         </div></div>

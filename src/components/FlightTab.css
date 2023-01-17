@@ -3,7 +3,7 @@
     border: none;
     font-size: 19px;
     font-weight: 600;
-    background-color: #d3d3d3;
+    background-color: #8b3eea17;
     color: black;
 }
 .Flyinput::placeholder{color: black;}
@@ -14,7 +14,7 @@
 }
 
 .Flybg {
-    background-color: #d3d3d3;
+    background-color: #8b3eea17;
     border-radius: 10px;
 }
 
