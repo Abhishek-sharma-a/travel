@@ -28,7 +28,7 @@ function App() {
         <Route path="/aboutus" element={<AboutUs/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
-      <Footer />
+      <div style={{backgroundColor:"whiteSmoke"}} className="pt-5 mt-5"><Footer /></div>
 
 
     </div>

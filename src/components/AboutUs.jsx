@@ -1,8 +1,54 @@
 import React from 'react'
+import Banner from './Banner'
+import Aboutbg from "../assets/AboutImg/common-banner.6ccf3e41.png"
+import girl from "../assets/AboutImg/small_banner.fc6f89cb.png"
+import girlwater from "../assets/AboutImg/big_banner.4d37afd7.png"
+import aboutImg from "../assets/AboutImg/abour_right.177c8485.png"
+import './AboutUs.css'
+import pic1 from "../assets/AboutImg/download.png"
+import pic2 from "../assets/AboutImg/download1.png"
+import pic3 from "../assets/AboutImg/download2.png"
+import pic4 from "../assets/AboutImg/download3.png"
+import AboutCard from './AboutCard'
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+
+    <>
+      <Banner h1={"About us"} h2={""} imgPath={Aboutbg} />
+      <div className="container">
+        <div className='row py-5 my-3'>
+          <div className="Aleft col-6 ">
+            <h5>About us</h5>
+            <h1>We Are The World Best Travel Agency Company Since 2000</h1>
+            <p style={{ lineHeight: "30px" }}>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr </p><p>
+              At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+            <div ><button className="btn_navber px-5 py-2"  >Find Tours</button></div>
+          </div>
+          <div className="Aright col-6">
+            <img src={aboutImg} alt="" />
+          </div>
+
+        </div>
+      </div>
+      <div className="container d-flex justify-content-between">
+        <div>
+          <img src={girl} alt="" style={{ width: "100%" }} />
+        </div>
+        <div>
+          <img src={girlwater} alt="" style={{ width: "100%" }} />
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row d-flex justify-content-between" >
+         <div className="col-2 px-2 py-5"> <AboutCard pic={pic1} h={"Best services"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
+          <div className="col-2 px-2 py-5"><AboutCard pic={pic2} h={"Trusted payment"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
+          <div className="col-2 px-2 py-5"><AboutCard pic={pic3} h={"Top facility"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
+         <div className="col-2 px-2 py-5"> <AboutCard pic={pic4} h={"Awesome deals"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
+        </div>
+      </div>
+    </>
   )
 }
 

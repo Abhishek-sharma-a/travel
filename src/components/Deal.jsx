@@ -1,25 +1,27 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import './Deal.css'
 
 const Deal = ({ photo, h3, rating, price }) => {
     return (
-        <div className='ab'>
+        
 
-            <Card style={{ width: '18rem' }}>
+            <Card className='CardStyle'>
                 <Card.Img variant="top" src={photo} />
                 <Card.Body>
                     <Card.Title>
-                        <h3>{h3}</h3>
+                        <h5>{h3}</h5>
                     </Card.Title>
                     <Card.Text>
-                        <p> {rating}</p>
+                        <span style={{color:"#8b3eea"}}> {rating}</span>
                     </Card.Text>
                     <Card.Text>
-                        <h3>{price} </h3>
+                        <span className='fs-4'>{price} </span >
                         <span>price start from</span>
                     </Card.Text>
                 </Card.Body>
-            </Card></div>
+            </Card>
+           
 
     )
 }
