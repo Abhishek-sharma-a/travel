@@ -31,8 +31,8 @@ const Header = () => {
                         <div className="com-md-6 col-lg-6">
                             <ul className="topbar-list">
                                 <li className='usd'>
-                                    <Link to={"/"} className='ms-3'>Login <span className='ms-2'>|</span></Link>
-                                    <Link to={"/"} className='ms-3'>Sign up <span className='ms-2'>|</span></Link>
+                                    {/* <Link to={"/"} className='ms-3'>Login <span className='ms-2'>|</span></Link>
+                                    <Link to={"/"} className='ms-3'>Sign up <span className='ms-2'>|</span></Link> */}
                                     <Link to={"/"} className='ms-3'>English <span className='ms-2'>|</span></Link>
                                     <Link to={"/"} className='ms-3'>USD <span className='ms-2'>|</span></Link>
                                 </li>
@@ -48,7 +48,7 @@ const Header = () => {
                         <Link to={"/"}>Packages</Link>
                         <Link to={"/"}>Glimpse</Link>
                         <Link to={"/"}>Taxi Hire</Link>
-                        <Link to={"/"}>About</Link>
+                        <Link to={"/aboutus"}>About</Link>
                         <Link to={"/"}>Book Your Trip</Link>
                         <div ><button className="btn_navber" >Become a partner</button></div>
                     </nav>

@@ -4,10 +4,10 @@ a.active {
     border: #8b3eea;
 }
 
-.nav-item .nav-link  {
-    background-color: #fff ;
-    color: black !important; 
-    border:1px solid #8b3eea !important;
+.nav-item .nav-link {
+    background-color: #fff;
+    color: black !important;
+    border: 1px solid #8b3eea !important;
 }
 
 .buttFlex {
@@ -15,8 +15,17 @@ a.active {
     gap: 20px;
     justify-content: center;
 }
-.grid-container{  display: grid;
+
+.grid-container {
+    display: grid;
     grid-template-columns: auto auto auto auto;
-  
-   row-gap: 20px;
-column-gap: 10px;}
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.navflex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
