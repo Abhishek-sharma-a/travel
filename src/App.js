@@ -3,7 +3,7 @@ import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import TaxiHire from "./components/TaxiHire";
+import Contact from "./components/Contact";
 import DestinationWedding from "./components/DestinationWedding";
 import Glimpse from "./components/Glimpse ";
 import DestinationPackages from "./components/DestinationPackages";
@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home/>} />
         <Route path="/destinationwedding" element={<DestinationWedding/>} />
-        <Route path="/taxihire" element={<TaxiHire/>} />
+        <Route path="/contact" element={<Contact/>} />
         <Route path="/glimpse" element={<Glimpse/>} />
         {/* glimpse pe photo aur vodeo ka section hona cahiye */}
         <Route path="/destinationpackages" element={<DestinationPackages/>} />

@@ -45,12 +45,12 @@ const Header = () => {
                     <nav className='d-flex justify-content-around align-items-center navFont fs-5 '>
                         <Link to={"/"}><img src={logo} alt="" /></Link>
                         <Link to={"/"}>Home</Link>
-                        <Link to={"/"}>Packages</Link>
-                        <Link to={"/"}>Glimpse</Link>
-                        <Link to={"/"}>Taxi Hire</Link>
+                        <Link to={"/destinationpackages"}>Packages</Link>
+                        <Link to={"/glimpse"}>Glimpse</Link>
+                        <Link to={"/contact"}>Contact us</Link>
                         <Link to={"/aboutus"}>About</Link>
-                        <Link to={"/"}>Book Your Trip</Link>
-                        <div ><button className="btn_navber" >Become a partner</button></div>
+                       
+                        <div ><button className="btn_navber" >Book your Trip</button></div>
                     </nav>
                 </div>
             </div>

@@ -1,4 +1,7 @@
-.Aright img{width: 100%;}
-img{object-fit: contain;}
+.Aright img {
+    width: 100%;
+}
 
-button:hover{}
+img {
+    object-fit: contain;
+}

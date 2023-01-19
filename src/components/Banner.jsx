@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Banner = ({ h1, h2, imgPath }) => {console.log(imgPath);
+const Banner = ({ h1, h2, imgPath }) => {
     return (
        
             <div className='home_one_banner' style={{ backgroundImage: `url(${imgPath})`,height:"50px"}}>

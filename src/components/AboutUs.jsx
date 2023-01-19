@@ -10,6 +10,8 @@ import pic2 from "../assets/AboutImg/download1.png"
 import pic3 from "../assets/AboutImg/download2.png"
 import pic4 from "../assets/AboutImg/download3.png"
 import AboutCard from './AboutCard'
+import bridge from "../assets/AboutImg/counter_bg.55b8b540.png"
+import Review from './Review'
 
 const AboutUs = () => {
   return (
@@ -31,23 +33,34 @@ const AboutUs = () => {
 
         </div>
       </div>
-      <div className="container d-flex justify-content-between">
+      <div className="container d-flex justify-content-around">
         <div>
           <img src={girl} alt="" style={{ width: "100%" }} />
         </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;
         <div>
           <img src={girlwater} alt="" style={{ width: "100%" }} />
         </div>
       </div>
 
       <div className="container">
-        <div className="row d-flex justify-content-between" >
+        <div className="row d-flex justify-content-between">
          <div className="col-2 px-2 py-5"> <AboutCard pic={pic1} h={"Best services"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
-          <div className="col-2 px-2 py-5"><AboutCard pic={pic2} h={"Trusted payment"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
+          <div className="col-2 px-2 py-5"><AboutCard pic={pic2} h={"Trusted payment"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut."} /></div>
           <div className="col-2 px-2 py-5"><AboutCard pic={pic3} h={"Top facility"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
          <div className="col-2 px-2 py-5"> <AboutCard pic={pic4} h={"Awesome deals"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
         </div>
       </div>
+     
+    <Banner h1={"Have you any question?"} h2={"Find awesome flights, hotel, tour, car and packages"} imgPath={bridge}/>
+<div className="container">
+  <div className="row d-flex justify-content-between my-5 ">
+    <div className="col-3 "><Review h={"Jesica simpsn"} p={" Loved the overall tour for all 6 days covering jaipur jodhpur and jaisalmer. worth ur money for sure. thanks. Driver was very good and polite and safe driving for all 6 days. on time pickup and drop overall. Thanks for it. "}/></div>
+    <div className="col-3"><Review h={"Jesica simpsn"} p={" Loved the overall tour for all 6 days covering jaipur jodhpur and jaisalmer. worth ur money for sure. thanks. Driver was very good and polite and safe driving for all 6 days. on time pickup and drop overall. Thanks for it. "}/></div>
+    <div className="col-3 "><Review h={"Jesica simpsn"} p={" Loved the overall tour for all 6 days covering jaipur jodhpur and jaisalmer. worth ur money for sure. thanks. Driver was very good and polite and safe driving for all 6 days. on time pickup and drop overall. Thanks for it. "}/></div>
+  </div>
+</div>
+   
     </>
   )
 }

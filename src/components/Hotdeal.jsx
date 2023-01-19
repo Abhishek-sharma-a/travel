@@ -9,7 +9,7 @@ const Hotdeal = () => {
     <div className='py-5'>
         <div className="container my-5 ">
             <div className="row new ">
-                <div className="col-6">
+                <div className="col-6 ">
 <img src={pic1} alt="" />
                 </div>
                 <div className="col-3">
