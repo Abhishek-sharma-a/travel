@@ -8,35 +8,41 @@ import imgR2M from '../assets/images/destination5.73428857.png'
 import imgR2B from '../assets/images/destination6.4540162c.png'
 import imgR3T from '../assets/images/destination7.db797940.png'
 import imgR3M from '../assets/images/destination8.03d4b7a9.png'
+import { useNavigate } from 'react-router-dom'
 
-const DestinationMain = ({desLimg}) => {
+
+
+const DestinationMain = ({ desLimg }) => {
+
+  const navegate = useNavigate();
+
   return (
     <div>
 
-<div className="container des">
-    <div className="desL col-5">
-        <img src={desLimg} alt="" />
-    </div>
-    <div className="desR col-7">
-        <div className="col-3 R1 ms-2">
-           <div className='mb-4'><img src={imgR1T} alt="" /></div>
-           <div className='mb-4'><img src={imgR1M} alt="" /></div>
-           <div><img src={imgR1B} alt="" /></div>
+      <div className="container des">
+        <div className="desL col-5">
+          <img src={desLimg} alt="" />
         </div>
-        <div className="col-3 R1 ms-(-2)">
-        <div className='mb-4'><img src={imgR2T} alt="" /></div>
-        <div className='mb-4'><img src={imgR2M} alt="" /></div>
-        <div><img src={imgR2B} alt="" /></div>
+        <div className="desR col-6">
+          <div className="col-3 R1 ms-2">
+            <div className='mb-4'><img src={imgR1T} alt="" /></div>
+            <div className='mb-4'><img src={imgR1M} alt="" /></div>
+            <div><img src={imgR1B} alt="" /></div>
+          </div>
+          <div className="col-3 R1 ms-(-2)">
+            <div className='mb-4'><img src={imgR2T} alt="" /></div>
+            <div className='mb-4'><img src={imgR2M} alt="" /></div>
+            <div><img src={imgR2B} alt="" /></div>
 
-        </div>
-        <div className="col-3 R1">
-           <div className='mb-4'><img src={imgR3T} alt="" /></div>
-           <div className='mb-4'><img src={imgR3M} alt="" /></div>
-           <div>  <div ><button className="btn_navber Viewbtn" >View all</button></div></div>
+          </div>
+          <div className="col-3 R1">
+            <div className='mb-4'><img src={imgR3T} alt="" /></div>
+            <div className='mb-4'><img src={imgR3M} alt="" /></div>
+            <div>  <div ><button className="btn_navber Viewbtn" onClick={() => navegate("/destinationpackages")} >View all</button></div></div>
 
+          </div>
         </div>
-    </div>
-</div>
+      </div>
 
     </div>
   )
