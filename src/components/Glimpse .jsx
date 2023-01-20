@@ -75,7 +75,7 @@ const Glimpse = () => {
         </Carousel></div>
 
       <Heading heading={"Photos"} />
-      <div className='d-flex flex-wrap container '>
+      <div className='d-flex flex-wrap container'>
         {imgpaths.map((i, key) => (
 
           <img src={`../arrayimg/arr${i}.png`} className='arrimg' />
@@ -84,9 +84,9 @@ const Glimpse = () => {
         ))}  </div>
 
       <Heading heading={"Videos"} />
-      <div className='d-flex flex-wrap container justify-content-between aling-content-around rounded'>
+      <div className='d-flex flex-wrap container justify-content-between aling-content-around rounded videomax'>
         {videopath.map((j) => (
-          <video controls width={500} height={300} placeholder={imgpaths.map((i, key) => (
+          <video controls width={"100%"}  placeholder={imgpaths.map((i, key) => (
 
             <img src={`../arrayimg/arr${i}.png`} className='arrimg' />
   

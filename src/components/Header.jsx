@@ -1,20 +1,22 @@
 import React from 'react'
 import './Header.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate} from 'react-router-dom'
 import facebook from '../assets/socialpic/icons8-facebook-24.png'
 import twitter from '../assets/socialpic/icons8-twitter-30.png'
 import instagram from '../assets/socialpic/icons8-instagram-24.png'
 import linkedin from '../assets/socialpic/icons8-linkedin-24.png'
-import logo from '../assets/images/logo.png'
+import Menu from './menu'
 
 
 const Header = () => {
+
+    const nave = useNavigate();
     return (
         <>  <div className='header ' >
             <div className='border-bottom'>
-                <div className="container">
+                <div className="container firsthead">
                     <div className="row aling-item-center">
-                        <div className="col-lg-6 col-md-6">
+                        <div className="col-sm-12 col-md-6">
                             <ul className="topbar-list">
                                 <li>
                                     <Link to={"/"}>
@@ -40,7 +42,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div></div>
-            <div className="main-navbar">
+            {/* <div className="main-navbar">
                 <div className="container">
                     <nav className='d-flex justify-content-around align-items-center navFont fs-5 '>
                         <Link to={"/"}><img src={logo} alt="" /></Link>
@@ -50,10 +52,12 @@ const Header = () => {
                         <Link to={"/contact"}>Contact us</Link>
                         <Link to={"/aboutus"}>About</Link>
                        
-                        <div ><button className="btn_navber" >Book your Trip</button></div>
+                        <div ><button className="btn_navber" onClick={() => nave("/bookyourtrip")}>Book your Trip</button></div>
                     </nav>
                 </div>
-            </div>
+            </div> */}
+
+            <Menu/>
         </div></>
     )
 }

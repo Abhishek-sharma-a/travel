@@ -9,13 +9,13 @@ const Hotdeal = () => {
     <div className='py-5'>
         <div className="container my-5 ">
             <div className="row new ">
-                <div className="col-6 ">
+                <div className="col-md-6 col-sm-12 ">
 <img src={pic1} alt="" />
                 </div>
-                <div className="col-3">
+                <div className="col-md-3 col-sm-12">
 <img src={pic2} alt="" />
                 </div>
-                <div className="col-3">
+                <div className="col-md-3 col-sm-12">
                 <img src={pic3} alt="" />
 
                 </div>
