@@ -9,7 +9,7 @@ import p6 from '../assets/images/6.50639b22.png'
 const Ourpartner = () => {
     return (
         <div className="container">
-            <div className="col d-flex justify-content-around mb-5">
+            <div className="col-md-12 col-sm-6 d-flex justify-content-around mb-5 partnermax">
                 <img src={p1} alt="" />
                 <img src={p2} alt="" />
                 <img src={p3} alt="" />

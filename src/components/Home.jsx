@@ -17,6 +17,7 @@ import bg from "../assets/images/bg.40066edd.png"
 import DestinationForYou from './DestinationWedding'
 import Ourpartner from './Ourpartner'
 import Banner from './Banner'
+
 const Home = () => {
 
   return (
@@ -37,8 +38,8 @@ const Home = () => {
       <Butt />
       <Hotdeal />
       <Heading heading={"Our best promotional tours"} />
-      <div className="container">
-        <div className="grid-container">
+      <div className="container permostion">
+        <div className="grid-container ">
           <div className="grid-item"> <Deal photo={pic} h3={"Kantua hotel, Thailand"} rating={"4.8/5 Excellent "} price={"$99.07"} /></div>
           <div className="grid-item"> <Deal photo={pic2} h3={"Kantua hotel, Thailand"} rating={"4.8/5 Excellent "} price={"$99.07"} /></div>
           <div className="grid-item"> <Deal photo={pic3} h3={"Kantua hotel, Thailand"} rating={"4.8/5 Excellent "} price={"$99.07"} /></div>

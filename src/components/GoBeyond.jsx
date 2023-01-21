@@ -9,13 +9,13 @@ const GoBeyond = () => {
         <div>
             <div className="container my-5"  >
                 <div className="row Go">
-                    <div className='col-3'>
+                    <div className='col-md-3 col-sm-12'>
                         <h3 className='pb-2 border-bottom'>Go beyond your imagination</h3>
                         <p className='pt-3 fs-5'>Discover your ideal experience with us</p>
                     </div>
-                    <div className="col-3"><GobyondImg img={Goimg1} /></div>
-                    <div className="col-3"><GobyondImg img={Goimg2} /></div>
-                    <div className="col-3"><GobyondImg img={Goimg3} /></div>
+                    <div className="col-md-3 col-sm-12"><GobyondImg img={Goimg1} /></div>
+                    <div className="col-md-3 col-sm-12"><GobyondImg img={Goimg2} /></div>
+                    <div className="col-md-3 col-sm-12"><GobyondImg img={Goimg3} /></div>
                  
                 </div>
 

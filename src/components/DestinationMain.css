@@ -1,5 +1,6 @@
 .des {
     display: flex;
+    flex-wrap:wrap ;
 }
 
 .desL {
@@ -13,6 +14,8 @@
 .desR {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap:wrap ;
+
 }
 
 .R1 {

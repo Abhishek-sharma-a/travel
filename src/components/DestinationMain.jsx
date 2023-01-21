@@ -20,22 +20,22 @@ const DestinationMain = ({ desLimg }) => {
     <div>
 
       <div className="container des">
-        <div className="desL col-5">
+        <div className="desL col-md-5 col-sm-12 ">
           <img src={desLimg} alt="" />
         </div>
-        <div className="desR col-6">
-          <div className="col-3 R1 ms-2">
+        <div className="desR col-md-6 col-sm-12">
+          <div className="col-md-3 col-sm-12 R1 ms-2">
             <div className='mb-4'><img src={imgR1T} alt="" /></div>
             <div className='mb-4'><img src={imgR1M} alt="" /></div>
             <div><img src={imgR1B} alt="" /></div>
           </div>
-          <div className="col-3 R1 ms-(-2)">
+          <div className="col-md-3 col-sm-12 R1 ms-(-2)">
             <div className='mb-4'><img src={imgR2T} alt="" /></div>
             <div className='mb-4'><img src={imgR2M} alt="" /></div>
             <div><img src={imgR2B} alt="" /></div>
 
           </div>
-          <div className="col-3 R1">
+          <div className="col-md-3 col-sm-12 R1">
             <div className='mb-4'><img src={imgR3T} alt="" /></div>
             <div className='mb-4'><img src={imgR3M} alt="" /></div>
             <div>  <div ><button className="btn_navber Viewbtn" onClick={() => navegate("/destinationpackages")} >View all</button></div></div>
