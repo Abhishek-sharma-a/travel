@@ -21,19 +21,19 @@ const DestinationPackages = () => {
       <Heading heading={"packages"} />
       <div className="container d-flex flex-column">
         <div className="row d-flex justify-content-center">
-          <div className="col-3 "><Products img={pic} h={"Ancient egypt"} p={'$99.00'} /></div>
-          <div className="col-3"><Products img={pic1} h={"Ancient egypt"} p={'$99.00'} /></div>
-          <div className="col-3"><Products img={pic2} h={"Ancient egypt"} p={'$99.00'} /></div>
+          <div className="col-md-3 col-sm-12"><Products img={pic} h={"Ancient egypt"} p={'$99.00'} /></div>
+          <div className="col-md-3 col-sm-12"><Products img={pic1} h={"Ancient egypt"} p={'$99.00'} /></div>
+          <div className="col-md-3 col-sm-12"><Products img={pic2} h={"Ancient egypt"} p={'$99.00'} /></div>
         </div>
         <div className="row d-flex justify-content-center">
-          <div className="col-3"><Products img={pic3} h={"Ancient egypt"} p={'$99.00'} /></div>
-          <div className="col-3"><Products img={pic4} h={"Ancient egypt"} p={'$99.00'} /></div>
-          <div className="col-3"><Products img={pic5} h={"Ancient egypt"} p={'$99.00'} /></div>
+          <div className="col-md-3 col-sm-12"><Products img={pic3} h={"Ancient egypt"} p={'$99.00'} /></div>
+          <div className="col-md-3 col-sm-12"><Products img={pic4} h={"Ancient egypt"} p={'$99.00'} /></div>
+          <div className="col-md-3 col-sm-12"><Products img={pic5} h={"Ancient egypt"} p={'$99.00'} /></div>
         </div>
         <div className="row d-flex justify-content-center">
-          <div className="col-3"><Products img={pic2} h={"Ancient egypt"} p={'$99.00'} /></div>
-          <div className="col-3"><Products img={pic} h={"Ancient egypt"} p={'$99.00'} /></div>
-          <div className="col-3"><Products img={pic3} h={"Ancient egypt"} p={'$99.00'} /></div>
+          <div className="col-md-3 col-sm-12"><Products img={pic2} h={"Ancient egypt"} p={'$99.00'} /></div>
+          <div className="col-md-3 col-sm-12"><Products img={pic} h={"Ancient egypt"} p={'$99.00'} /></div>
+          <div className="col-md-3 col-sm-12"><Products img={pic3} h={"Ancient egypt"} p={'$99.00'} /></div>
         </div>
       </div>
 

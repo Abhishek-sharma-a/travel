@@ -50,10 +50,10 @@ const AboutUs = () => {
 
       <div className="container">
         <div className="row d-flex justify-content-between">
-         <div className="col-md-2 col-sm-12 px-2 py-5"> <AboutCard pic={pic1} h={"Best services"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
-          <div className="col-md-2 col-sm-12 px-2 py-5"><AboutCard pic={pic2} h={"Trusted payment"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut."} /></div>
-          <div className="col-md-2 col-sm-12 px-2 py-5"><AboutCard pic={pic3} h={"Top facility"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
-         <div className="col-md-2 col-sm-12 px-2 py-5"> <AboutCard pic={pic4} h={"Awesome deals"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
+         <div className="col-md-2 col-sm-12 px-2 py-5 "> <AboutCard pic={pic1} h={"Best services"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
+          <div className="col-md-2 col-sm-12 px-2 py-5 "><AboutCard pic={pic2} h={"Trusted payment"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut."} /></div>
+          <div className="col-md-2 col-sm-12 px-2 py-5 "><AboutCard pic={pic3} h={"Top facility"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
+         <div className="col-md-2 col-sm-12 px-2 py-5 "> <AboutCard pic={pic4} h={"Awesome deals"} p={"Phaseus site amet tristique ligua donec iaculis leo sus cipit. Consec tetur adipiscing elit. Incididunt ut dolore."} /></div>
         </div>
       </div>
      

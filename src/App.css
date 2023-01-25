@@ -56,10 +56,22 @@
     .partnermax {
         flex-direction: column;
     }
+
     .permostion .grid-container {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .delete {
+        display: none;
+    }
+
+    .home_one_banner h1,.home_one_banner h2 {
+        font-size: 55px;
+    }
+
+    .siz{font-size: 23px;}
+   
 }
 
 .videomax video {

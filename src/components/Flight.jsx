@@ -11,7 +11,7 @@ const Flight = () => {
     const [Hotel, setHotel] = useState(false);
     const [Tour, setTour] = useState(false);
     return (
-        <div className='container'>
+        <div className='container delete'>
             <div className='container fth'>
                 <div className="row rounded shadow p-3 mb-5 bg-white rounded">
                     <div className='d-flex flex-column'>

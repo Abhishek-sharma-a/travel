@@ -7,7 +7,7 @@ const Banner = ({ h1, h2, imgPath }) => {
                 <div className="container" style={{backgroundImage:"abhsgd"}}>
                     <h1 className="text-center HeroHeading">{h1}</h1>
                 </div>
-                <h2 className='text-center text-white fontWeight fs-3 mt-4'>{h2}</h2>
+                <h2 className='text-center text-white fontWeight fs-3 mt-4 delete'>{h2}</h2>
             </div>
        
     )
