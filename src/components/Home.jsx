@@ -14,7 +14,7 @@ import pic2 from '../assets/images/hotel2.840d2131.png'
 import pic3 from '../assets/images/hotel3.9b69bb63.png'
 import pic4 from '../assets/images/hotel4.bb75eb4a.png'
 import bg from "../assets/images/bg.40066edd.png"
-import DestinationForYou from './DestinationWedding'
+// import DestinationForYou from './DestinationWedding'
 import Ourpartner from './Ourpartner'
 import Banner from './Banner'
 
@@ -35,7 +35,6 @@ const Home = () => {
       <Heading heading={"Top destinations"} />
       <DestinationMain desLimg={girlRed} />
       <Heading heading={"Explore our hot deals"} />
-      <Butt />
       <Hotdeal />
       <Heading heading={"Our best promotional tours"} />
       <div className="container permostion">
@@ -47,7 +46,9 @@ const Home = () => {
         </div>
       </div>
       <Heading heading={"Destinations for you"} />
-      <DestinationForYou />
+      <Butt />
+
+      {/* <DestinationForYou /> */}
       <Heading heading={"Our partners"} />
       <Ourpartner />
 

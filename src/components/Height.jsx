@@ -3,7 +3,7 @@ import React from 'react'
 
 const Height = () => {
   return (
-    <div style={{minHeight:"40vh"}}></div>
+    <div style={{minHeight:"40vh"}} className="delete"></div>
   )
 }
 
