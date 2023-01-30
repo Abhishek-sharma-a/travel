@@ -15,13 +15,10 @@ const TripForm = () => {
 
     const navegate = useNavigate()
 
-    //modal
+    //modal 
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
-
     // modal
 
     const initial = {
@@ -45,21 +42,21 @@ const TripForm = () => {
         setSubmit(true);
     }
     const [post, setPost] = useState(null);
-    const baseURL = "http://localhost:5000/";
+    const baseURL = "http://localhost:4000/";
 
     const handleBook = () => {
 
-        axios.post(baseURL, formvalue).then((res) => { });
+        axios.post(baseURL+'sendEmail', formvalue).then((res) => { });
         setValue(initial)
     }
-const Swa=()=>{
-    Swal.fire(
-        'Your ticket is booked',
-        'Your booking details was sent to your email.',
-        'success'
-      )
-      navegate("/")
-}
+    const Swa = () => {
+        Swal.fire(
+            'Your ticket is booked',
+            'Your booking details was sent to your email.',
+            'success'
+        )
+        navegate("/")
+    }
 
     return (<>
         <div className='container col-lg-6 col-md-3 col-sm-3'>
@@ -69,7 +66,7 @@ const Swa=()=>{
                     type="email"
                     placeholder="name@example.com"
                     onChange={handleInput}
-                   
+
                 />
                 <label>Email address</label>
             </Form.Floating>
@@ -88,7 +85,7 @@ const Swa=()=>{
                 <Form.Control
                     name="lname"
                     type="text"
-                    placeholder="Lirst Name"
+                    placeholder="Last Name"
                     required
                     onChange={handleInput}
                 />
@@ -155,7 +152,7 @@ const Swa=()=>{
             </Modal>
 
         </div>
-        
+
     </>
     )
 }

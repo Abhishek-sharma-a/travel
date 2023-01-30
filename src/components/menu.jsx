@@ -18,6 +18,8 @@ function Menu() {
                         <Link to={"/glimpse"}>Glimpse</Link>
                         <Link to={"/contact"}>Contact us</Link>
                         <Link to={"/aboutus"}>About</Link>
+                        {/* <Link to={"/loginpage"}>Login</Link>
+                        <Link to={"/signup"}>Sign up</Link> */}
 
                         {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

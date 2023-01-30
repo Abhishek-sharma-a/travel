@@ -33,8 +33,8 @@ const Header = () => {
                         <div className="com-md-6 col-lg-6">
                             <ul className="topbar-list">
                                 <li className='usd'>
-                                    {/* <Link to={"/"} className='ms-3'>Login <span className='ms-2'>|</span></Link>
-                                    <Link to={"/"} className='ms-3'>Sign up <span className='ms-2'>|</span></Link> */}
+                                    <Link to={"/loginpage"} className='ms-3'>Login <span className='ms-2'>|</span></Link>
+                                    <Link to={"/signup"} className='ms-3'>Sign up <span className='ms-2'>|</span></Link>
                                     <Link to={"/"} className='ms-3'>English <span className='ms-2'>|</span></Link>
                                     <Link to={"/"} className='ms-3'>USD <span className='ms-2'>|</span></Link>
                                 </li>
@@ -42,21 +42,6 @@ const Header = () => {
                         </div>
                     </div>
                 </div></div>
-            {/* <div className="main-navbar">
-                <div className="container">
-                    <nav className='d-flex justify-content-around align-items-center navFont fs-5 '>
-                        <Link to={"/"}><img src={logo} alt="" /></Link>
-                        <Link to={"/"}>Home</Link>
-                        <Link to={"/destinationpackages"}>Packages</Link>
-                        <Link to={"/glimpse"}>Glimpse</Link>
-                        <Link to={"/contact"}>Contact us</Link>
-                        <Link to={"/aboutus"}>About</Link>
-                       
-                        <div ><button className="btn_navber" onClick={() => nave("/bookyourtrip")}>Book your Trip</button></div>
-                    </nav>
-                </div>
-            </div> */}
-
             <Menu/>
         </div></>
     )
